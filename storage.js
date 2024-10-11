@@ -4,7 +4,7 @@
 function saveTasks(tasks) {
     // saves to browser, persistent after closing
     // key to retrieve = tasks
-    localStorage.set("tasks", JSON.stringify(tasks));
+    localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 
 // funciton to load tasks from local storage
